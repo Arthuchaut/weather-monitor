@@ -8,3 +8,10 @@ def country_fake_data() -> dict[str, Any]:
         'name': 'France',
         'country_code': 'FR',
     }
+
+
+@pytest.fixture
+def city_fake_data() -> dict[str, Any]:
+    return {
+        'name': 'Rennes',
+    }
