@@ -11,6 +11,6 @@ class Country(models.Model):
 
     class Meta:
         app_label: str = 'weather'
-        db_table: str = 'weather'
-        verbose_name: str = _('weather')
-        verbose_name_plural: str = _('weathers')
+        db_table: str = 'country'
+        verbose_name: str = _('country')
+        verbose_name_plural: str = _('countries')
