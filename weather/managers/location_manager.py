@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.utils import IntegrityError
 from weather.models import City, Ocean
 
 
@@ -11,7 +12,7 @@ class LocationManager(models.Manager):
         ocean: Ocean = None,
     ) -> object:
         if not city and not ocean or city and ocean:
-            raise ValueError(
+            raise IntegrityError(
                 'Only one of the city or ocean object must be given.'
             )
 

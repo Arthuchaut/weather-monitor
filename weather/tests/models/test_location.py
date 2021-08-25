@@ -1,5 +1,6 @@
 from typing import Any
 import pytest
+from django.db.utils import IntegrityError
 from weather.models import Location, City, Country, Ocean
 
 
@@ -35,12 +36,12 @@ class TestLocation:
         )
         assert str(location) == f'{location.lat}, {location.lon}'
 
-        with pytest.raises(ValueError):
+        with pytest.raises(IntegrityError):
             Location.objects.create(
                 **location_fake_data,
                 ocean=ocean,
                 city=city,
             )
 
-        with pytest.raises(ValueError):
+        with pytest.raises(IntegrityError):
             Location.objects.create(**location_fake_data)
