@@ -1,0 +1,1745 @@
+[
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AF",
+            "name": "Afghanistan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AX",
+            "name": "Åland"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AL",
+            "name": "The Republic of Albania"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "DZ",
+            "name": "The People's Democratic Republic of Algeria"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AS",
+            "name": "The Territory of American Samoa"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AD",
+            "name": "The Principality of Andorra"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AO",
+            "name": "The Republic of Angola"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AI",
+            "name": "Anguilla"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AQ",
+            "name": "Antarctica (all land and ice shelves south of the 60th parallel south)"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AG",
+            "name": "Antigua and Barbuda"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AR",
+            "name": "The Argentine Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AM",
+            "name": "The Republic of Armenia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AW",
+            "name": "Aruba"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AU",
+            "name": "The Commonwealth of Australia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AT",
+            "name": "The Republic of Austria"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AZ",
+            "name": "The Republic of Azerbaijan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BS",
+            "name": "The Commonwealth of The Bahamas"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BH",
+            "name": "The Kingdom of Bahrain"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BD",
+            "name": "The People's Republic of Bangladesh"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BB",
+            "name": "Barbados"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BY",
+            "name": "The Republic of Belarus"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BE",
+            "name": "The Kingdom of Belgium"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BZ",
+            "name": "Belize"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BJ",
+            "name": "The Republic of Benin"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BM",
+            "name": "Bermuda"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BT",
+            "name": "The Kingdom of Bhutan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BO",
+            "name": "The Plurinational State of Bolivia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BQ",
+            "name": "Bonaire, Sint Eustatius and Saba"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BA",
+            "name": "Bosnia and Herzegovina"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BW",
+            "name": "The Republic of Botswana"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BV",
+            "name": "Bouvet Island"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BR",
+            "name": "The Federative Republic of Brazil"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IO",
+            "name": "The British Indian Ocean Territory"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BN",
+            "name": "The Nation of Brunei, the Abode of Peace"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BG",
+            "name": "The Republic of Bulgaria"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BF",
+            "name": "Burkina Faso"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BI",
+            "name": "The Republic of Burundi"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CV",
+            "name": "The Republic of Cabo Verde"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KH",
+            "name": "The Kingdom of Cambodia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CM",
+            "name": "The Republic of Cameroon"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CA",
+            "name": "Canada"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KY",
+            "name": "The Cayman Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CF",
+            "name": "The Central African Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TD",
+            "name": "The Republic of Chad"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CL",
+            "name": "The Republic of Chile"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CN",
+            "name": "The People's Republic of China"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CX",
+            "name": "The Territory of Christmas Island"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CC",
+            "name": "The Territory of Cocos (Keeling) Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CO",
+            "name": "The Republic of Colombia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KM",
+            "name": "The Union of the Comoros"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CD",
+            "name": "The Democratic Republic of the Congo"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CG",
+            "name": "The Republic of the Congo"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CK",
+            "name": "The Cook Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CR",
+            "name": "The Republic of Costa Rica"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CI",
+            "name": "The Republic of Côte d'Ivoire"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "HR",
+            "name": "The Republic of Croatia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CU",
+            "name": "The Republic of Cuba"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CW",
+            "name": "The Country of Curaçao"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CY",
+            "name": "The Republic of Cyprus"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CZ",
+            "name": "The Czech Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "DK",
+            "name": "The Kingdom of Denmark"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "DJ",
+            "name": "The Republic of Djibouti"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "DM",
+            "name": "The Commonwealth of Dominica"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "DO",
+            "name": "The Dominican Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "EC",
+            "name": "The Republic of Ecuador"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "EG",
+            "name": "The Arab Republic of Egypt"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SV",
+            "name": "The Republic of El Salvador"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GQ",
+            "name": "The Republic of Equatorial Guinea"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ER",
+            "name": "The State of Eritrea"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "EE",
+            "name": "The Republic of Estonia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SZ",
+            "name": "The Kingdom of Eswatini"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ET",
+            "name": "The Federal Democratic Republic of Ethiopia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "FK",
+            "name": "The Falkland Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "FO",
+            "name": "The Faroe Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "FJ",
+            "name": "The Republic of Fiji"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "FI",
+            "name": "The Republic of Finland"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "FR",
+            "name": "The French Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GF",
+            "name": "Guyane"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PF",
+            "name": "French Polynesia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TF",
+            "name": "The French Southern and Antarctic Lands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GA",
+            "name": "The Gabonese Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GM",
+            "name": "The Republic of The Gambia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GE",
+            "name": "Georgia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "DE",
+            "name": "The Federal Republic of Germany"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GH",
+            "name": "The Republic of Ghana"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GI",
+            "name": "Gibraltar"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GR",
+            "name": "The Hellenic Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GL",
+            "name": "Kalaallit Nunaat"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GD",
+            "name": "Grenada"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GP",
+            "name": "Guadeloupe"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GU",
+            "name": "The Territory of Guam"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GT",
+            "name": "The Republic of Guatemala"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GG",
+            "name": "The Bailiwick of Guernsey"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GN",
+            "name": "The Republic of Guinea"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GW",
+            "name": "The Republic of Guinea-Bissau"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GY",
+            "name": "The Co-operative Republic of Guyana"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "HT",
+            "name": "The Republic of Haiti"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "HM",
+            "name": "The Territory of Heard Island and McDonald Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VA",
+            "name": "The Holy See"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "HN",
+            "name": "The Republic of Honduras"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "HK",
+            "name": "The Hong Kong Special Administrative Region of China[10]"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "HU",
+            "name": "Hungary"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IS",
+            "name": "Iceland"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IN",
+            "name": "The Republic of India"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ID",
+            "name": "The Republic of Indonesia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IR",
+            "name": "The Islamic Republic of Iran"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IQ",
+            "name": "The Republic of Iraq"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IE",
+            "name": "Ireland"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IM",
+            "name": "The Isle of Man"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IL",
+            "name": "The State of Israel"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "IT",
+            "name": "The Italian Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "JM",
+            "name": "Jamaica"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "JP",
+            "name": "Japan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "JE",
+            "name": "The Bailiwick of Jersey"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "JO",
+            "name": "The Hashemite Kingdom of Jordan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KZ",
+            "name": "The Republic of Kazakhstan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KE",
+            "name": "The Republic of Kenya"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KI",
+            "name": "The Republic of Kiribati"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KP",
+            "name": "The Democratic People's Republic of Korea"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KR",
+            "name": "The Republic of Korea"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KW",
+            "name": "The State of Kuwait"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KG",
+            "name": "The Kyrgyz Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LA",
+            "name": "The Lao People's Democratic Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LV",
+            "name": "The Republic of Latvia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LB",
+            "name": "The Lebanese Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LS",
+            "name": "The Kingdom of Lesotho"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LR",
+            "name": "The Republic of Liberia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LY",
+            "name": "The State of Libya"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LI",
+            "name": "The Principality of Liechtenstein"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LT",
+            "name": "The Republic of Lithuania"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LU",
+            "name": "The Grand Duchy of Luxembourg"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MO",
+            "name": "Macao Special Administrative Region of China[11]"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MK",
+            "name": "The Republic of North Macedonia[12]"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MG",
+            "name": "The Republic of Madagascar"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MW",
+            "name": "The Republic of Malawi"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MY",
+            "name": "Malaysia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MV",
+            "name": "The Republic of Maldives"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ML",
+            "name": "The Republic of Mali"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MT",
+            "name": "The Republic of Malta"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MH",
+            "name": "The Republic of the Marshall Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MQ",
+            "name": "Martinique"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MR",
+            "name": "The Islamic Republic of Mauritania"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MU",
+            "name": "The Republic of Mauritius"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "YT",
+            "name": "The Department of Mayotte"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MX",
+            "name": "The United Mexican States"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "FM",
+            "name": "The Federated States of Micronesia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MD",
+            "name": "The Republic of Moldova"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MC",
+            "name": "The Principality of Monaco"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MN",
+            "name": "Mongolia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ME",
+            "name": "Montenegro"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MS",
+            "name": "Montserrat"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MA",
+            "name": "The Kingdom of Morocco"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MZ",
+            "name": "The Republic of Mozambique"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MM",
+            "name": "The Republic of the Union of Myanmar"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NA",
+            "name": "The Republic of Namibia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NR",
+            "name": "The Republic of Nauru"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NP",
+            "name": "The Federal Democratic Republic of Nepal"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NL",
+            "name": "The Kingdom of the Netherlands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NC",
+            "name": "New Caledonia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NZ",
+            "name": "New Zealand"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NI",
+            "name": "The Republic of Nicaragua"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NE",
+            "name": "The Republic of the Niger"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NG",
+            "name": "The Federal Republic of Nigeria"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NU",
+            "name": "Niue"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NF",
+            "name": "The Territory of Norfolk Island"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MP",
+            "name": "The Commonwealth of the Northern Mariana Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "NO",
+            "name": "The Kingdom of Norway"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "OM",
+            "name": "The Sultanate of Oman"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PK",
+            "name": "The Islamic Republic of Pakistan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PW",
+            "name": "The Republic of Palau"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PS",
+            "name": "The State of Palestine"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PA",
+            "name": "The Republic of Panamá"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PG",
+            "name": "The Independent State of Papua New Guinea"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PY",
+            "name": "The Republic of Paraguay"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PE",
+            "name": "The Republic of Perú"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PH",
+            "name": "The Republic of the Philippines"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PN",
+            "name": "The Pitcairn, Henderson, Ducie and Oeno Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PL",
+            "name": "The Republic of Poland"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PT",
+            "name": "The Portuguese Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PR",
+            "name": "The Commonwealth of Puerto Rico"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "QA",
+            "name": "The State of Qatar"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "RE",
+            "name": "Réunion"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "RO",
+            "name": "Romania"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "RU",
+            "name": "The Russian Federation"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "RW",
+            "name": "The Republic of Rwanda"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "BL",
+            "name": "The Collectivity of Saint-Barthélemy"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SH",
+            "name": "Saint Helena, Ascension and Tristan da Cunha"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "KN",
+            "name": "Saint Kitts and Nevis"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LC",
+            "name": "Saint Lucia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "MF",
+            "name": "The Collectivity of Saint-Martin"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "PM",
+            "name": "The Overseas Collectivity of Saint-Pierre and Miquelon"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VC",
+            "name": "Saint Vincent and the Grenadines"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "WS",
+            "name": "The Independent State of Samoa"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SM",
+            "name": "The Republic of San Marino"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ST",
+            "name": "The Democratic Republic of São Tomé and Príncipe"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SA",
+            "name": "The Kingdom of Saudi Arabia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SN",
+            "name": "The Republic of Senegal"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "RS",
+            "name": "The Republic of Serbia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SC",
+            "name": "The Republic of Seychelles"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SL",
+            "name": "The Republic of Sierra Leone"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SG",
+            "name": "The Republic of Singapore"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SX",
+            "name": "Sint Maarten"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SK",
+            "name": "The Slovak Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SI",
+            "name": "The Republic of Slovenia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SB",
+            "name": "The Solomon Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SO",
+            "name": "The Federal Republic of Somalia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ZA",
+            "name": "The Republic of South Africa"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GS",
+            "name": "South Georgia and the South Sandwich Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SS",
+            "name": "The Republic of South Sudan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ES",
+            "name": "The Kingdom of Spain"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "LK",
+            "name": "The Democratic Socialist Republic of Sri Lanka"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SD",
+            "name": "The Republic of the Sudan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SR",
+            "name": "The Republic of Suriname"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SJ",
+            "name": "Svalbard and Jan Mayen"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SE",
+            "name": "The Kingdom of Sweden"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "CH",
+            "name": "The Swiss Confederation"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "SY",
+            "name": "The Syrian Arab Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TW",
+            "name": "The Republic of China"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TJ",
+            "name": "The Republic of Tajikistan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TZ",
+            "name": "The United Republic of Tanzania"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TH",
+            "name": "The Kingdom of Thailand"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TL",
+            "name": "The Democratic Republic of Timor-Leste"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TG",
+            "name": "The Togolese Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TK",
+            "name": "Tokelau"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TO",
+            "name": "The Kingdom of Tonga"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TT",
+            "name": "The Republic of Trinidad and Tobago"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TN",
+            "name": "The Republic of Tunisia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TR",
+            "name": "The Republic of Turkey"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TM",
+            "name": "Turkmenistan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TC",
+            "name": "The Turks and Caicos Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "TV",
+            "name": "Tuvalu"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "UG",
+            "name": "The Republic of Uganda"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "UA",
+            "name": "Ukraine"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "AE",
+            "name": "The United Arab Emirates"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "GB",
+            "name": "The United Kingdom of Great Britain and Northern Ireland"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "UM",
+            "name": "Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "US",
+            "name": "The United States of America"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "UY",
+            "name": "The Oriental Republic of Uruguay"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "UZ",
+            "name": "The Republic of Uzbekistan"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VU",
+            "name": "The Republic of Vanuatu"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VE",
+            "name": "The Bolivarian Republic of Venezuela"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VN",
+            "name": "The Socialist Republic of Viet Nam"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VG",
+            "name": "The Virgin Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "VI",
+            "name": "The Virgin Islands of the United States"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "WF",
+            "name": "The Territory of the Wallis and Futuna Islands"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "EH",
+            "name": "The Sahrawi Arab Democratic Republic"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "YE",
+            "name": "The Republic of Yemen"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ZM",
+            "name": "The Republic of Zambia"
+        }
+    },
+    {
+        "model": "weather.country",
+        "fields": {
+            "country_code": "ZW",
+            "name": "The Republic of Zimbabwe"
+        }
+    }
+]
