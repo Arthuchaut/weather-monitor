@@ -1,4 +1,5 @@
 from typing import Any
+from django.utils import timezone
 import pytest
 
 
@@ -39,4 +40,26 @@ def weather_fake_data() -> dict[str, Any]:
         'weather_id': 123456,
         'state': 'Cloudy',
         'description': 'It\'s means that\'s cloudy bro.',
+    }
+
+
+@pytest.fixture
+def measure_fake_data() -> dict[str, Any]:
+    return {
+        'measure_num': 1,
+        'created_at': timezone.now(),
+        'measured_at': timezone.now(),
+        'tz_timestamp': -43000,
+        'wind_speed': 42.8,
+        'wind_deg': 45,
+        'wind_gust': 45.2,
+        'visibility': 1000,
+        'temp': 14.5,
+        'feels_like': 12.14,
+        'temp_min': 8.6,
+        'temp_max': 14.5,
+        'pressure': 10,
+        'humidity': 5,
+        'sea_level': 10,
+        'ground_level': 12,
     }
