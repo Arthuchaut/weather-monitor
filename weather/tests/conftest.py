@@ -15,3 +15,10 @@ def city_fake_data() -> dict[str, Any]:
     return {
         'name': 'Rennes',
     }
+
+
+@pytest.fixture
+def ocean_fake_data() -> dict[str, Any]:
+    return {
+        'name': 'Atlantic Ocean',
+    }
