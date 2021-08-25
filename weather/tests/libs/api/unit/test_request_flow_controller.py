@@ -71,11 +71,6 @@ class TestRequestFlowController:
 
         assert state_file.read_text() == '1629923065.9253566 10'
 
-        req_flow._state_file = None
-
-        with pytest.raises(StateRecoveryError):
-            req_flow._save_state()
-
     def test_wait_for_free_flow(self, tmp_path: pathlib.Path) -> None:
         state_file: pathlib.Path = tmp_path / '.owm_flow_state'
         req_flow: RequestFlowController = RequestFlowController(

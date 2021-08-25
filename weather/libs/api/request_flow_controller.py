@@ -30,7 +30,7 @@ class RequestFlowController:
 
     def _recover_state(self) -> None:
         '''Recover the flow state from the given file.
-        If the file is empty, pass.
+        If the file is empty, create it.
 
         Raises:
             StateRecoveryError: If no file is given or
@@ -58,15 +58,12 @@ class RequestFlowController:
     def _save_state(self) -> None:
         '''Save the self._ref_timestamp and self._req_count attributes
         to the state file.
-
-        Raises:
-            StateRecoveryError: If no state file is given.
         '''
 
-        if not self._state_file:
-            raise StateRecoveryError('No state file given.')
-
-        self._state_file.write_text(f'{self._ref_timestamp} {self._req_count}')
+        if self._state_file:
+            self._state_file.write_text(
+                f'{self._ref_timestamp} {self._req_count}'
+            )
 
     def wait_for_free_flow(self) -> None:
         '''Update the flow state and wait until the flow
@@ -82,23 +79,18 @@ class RequestFlowController:
 
         if (secs := cur_timestamp - self._ref_timestamp) < self._time_range:
             if self._req_count < self._flow_capacity:
-                if self._state_file:
-                    self._save_state()
+                self._save_state()
                 return
 
             time.sleep(self._time_range - secs)
             self._req_count = 1
-
-            if self._state_file:
-                self._save_state()
+            self._save_state()
 
             return
 
         self._req_count = 1
         self._ref_timestamp = time.time()
-
-        if self._state_file:
-            self._save_state()
+        self._save_state()
 
 
 class StateRecoveryError(Exception):
