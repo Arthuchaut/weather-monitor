@@ -3,6 +3,9 @@ from django.utils.translation import gettext_lazy as _
 
 
 class Country(models.Model):
+    country_id: models.BigAutoField = models.BigAutoField(
+        primary_key=True, auto_created=True, serialize=False
+    )
     country_code: models.CharField = models.CharField(max_length=2)
     name: models.CharField = models.CharField(max_length=255)
 
