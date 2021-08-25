@@ -13,6 +13,7 @@ def country_fake_data() -> dict[str, Any]:
 @pytest.fixture
 def city_fake_data() -> dict[str, Any]:
     return {
+        'city_id': 123456,
         'name': 'Rennes',
     }
 
@@ -21,4 +22,12 @@ def city_fake_data() -> dict[str, Any]:
 def ocean_fake_data() -> dict[str, Any]:
     return {
         'name': 'Atlantic Ocean',
+    }
+
+
+@pytest.fixture
+def location_fake_data() -> dict[str, Any]:
+    return {
+        'lat': 48.10618240499252,
+        'lon': -1.6479917725717026,
     }
