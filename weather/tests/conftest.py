@@ -31,3 +31,12 @@ def location_fake_data() -> dict[str, Any]:
         'lat': 48.10618240499252,
         'lon': -1.6479917725717026,
     }
+
+
+@pytest.fixture
+def weather_fake_data() -> dict[str, Any]:
+    return {
+        'weather_id': 123456,
+        'state': 'Cloudy',
+        'description': 'It\'s means that\'s cloudy bro.',
+    }
