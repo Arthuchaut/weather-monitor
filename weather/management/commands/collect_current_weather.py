@@ -7,7 +7,7 @@ from weather.libs.api.open_weather_map import OpenWeatherMap
 from weather.models import Measure, Location, City, Country, Weather, Ocean
 
 
-class CollectCurrentWeather(BaseCommand):
+class Command(BaseCommand):
     help: str = (
         'Retrieve the current weather '
         'in the entier world and save these data in DB.'

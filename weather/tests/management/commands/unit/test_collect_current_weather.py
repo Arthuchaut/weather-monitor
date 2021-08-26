@@ -2,9 +2,7 @@ from typing import Any
 import pytest
 from _pytest.monkeypatch import MonkeyPatch
 from django.core.management import call_command
-from weather.management.commands.collect_current_weather import (
-    CollectCurrentWeather,
-)
+from weather.management.commands.collect_current_weather import Command
 from weather.libs.api.open_weather_map import OpenWeatherMap
 from weather.models import Measure
 
@@ -32,7 +30,7 @@ class TestCollectCurrentWeather:
         monkeypatch.setattr(
             OpenWeatherMap, 'get_weather_by_coord', get_weather_by_coord_patch
         )
-        command: CollectCurrentWeather = CollectCurrentWeather()
+        command: Command = Command()
         command.handle()
 
         for measure in current_weather_fake_data:
