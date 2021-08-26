@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Iterator
 import pathlib
 import time
 import requests
@@ -30,6 +30,24 @@ class OpenWeatherMap:
         '''
 
         return self._BASE_URL + self._VERSION + '/'
+
+    def sub_map(self, node_size: int) -> Iterator[list[tuple[float, float]]]:
+        '''Subdivide the world map in a grid and generate
+        a [lat, lon] coord for each node.
+
+        Args:
+            node_size (int): The size (in degree) for each node.
+
+        Returns:
+            Iterator[list[tuple[float, float]]]: The generated coord.
+        '''
+
+        for lat in range(90, -90, -node_size):
+            for lon in range(-180, 180, node_size):
+                center_lat = lat - (node_size / 2)
+                center_lon = lon + (node_size / 2)
+
+                yield center_lat, center_lon
 
     def _get(self, url: str, params: dict[str, Any] = {}) -> dict[str, Any]:
         '''Get the resource from the given URL and parameters.

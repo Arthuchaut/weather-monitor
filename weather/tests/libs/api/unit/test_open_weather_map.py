@@ -53,3 +53,6 @@ class TestOpenWeatherMap:
         )
 
         assert res == fake_get.return_value
+
+    def test_sub_map(self, fake_owm: OpenWeatherMap) -> None:
+        assert len(list(fake_owm.sub_map(5))) == 2_592
