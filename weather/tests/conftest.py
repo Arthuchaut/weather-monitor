@@ -1,7 +1,10 @@
+import pathlib
 from typing import Any
 import pytest
 from django.utils import timezone
+from django.conf import settings
 from weather.libs.api.open_weather_map import OpenWeatherMap
+from weather.libs.api.request_flow_controller import RequestFlowController
 
 
 @pytest.fixture
@@ -72,5 +75,6 @@ def fake_token() -> str:
 
 
 @pytest.fixture
-def fake_owm(fake_token: str) -> OpenWeatherMap:
+def fake_owm(fake_token: str, tmp_path: pathlib.Path) -> OpenWeatherMap:
+    settings.BASE_DIR = tmp_path
     return OpenWeatherMap(token=fake_token, calls_per_min=4)
