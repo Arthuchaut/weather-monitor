@@ -1,6 +1,7 @@
 import pathlib
 from typing import Any
 import pytest
+from _pytest.monkeypatch import MonkeyPatch
 from django.utils import timezone
 from django.conf import settings
 from weather.libs.api.open_weather_map import OpenWeatherMap
@@ -75,6 +76,8 @@ def fake_token() -> str:
 
 
 @pytest.fixture
-def fake_owm(fake_token: str, tmp_path: pathlib.Path) -> OpenWeatherMap:
-    settings.BASE_DIR = tmp_path
+def fake_owm(
+    fake_token: str, tmp_path: pathlib.Path, monkeypatch: MonkeyPatch
+) -> OpenWeatherMap:
+    monkeypatch.setattr(settings, 'BASE_DIR', tmp_path)
     return OpenWeatherMap(token=fake_token, calls_per_min=4)
