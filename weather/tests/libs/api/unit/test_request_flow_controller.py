@@ -86,3 +86,7 @@ class TestRequestFlowController:
             time.sleep(0.1)
 
         assert int(time.time() - begin_time) == 2
+        assert (
+            state_file.read_text()
+            == f'{req_flow._ref_timestamp} {req_flow._req_count}'
+        )

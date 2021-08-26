@@ -78,18 +78,13 @@ class RequestFlowController:
         cur_timestamp: float = time.time()
 
         if (secs := cur_timestamp - self._ref_timestamp) < self._time_range:
-            if self._req_count < self._flow_capacity:
-                self._save_state()
-                return
-
-            time.sleep(self._time_range - secs)
+            if self._req_count >= self._flow_capacity:
+                time.sleep(self._time_range - secs)
+                self._req_count = 1
+        else:
             self._req_count = 1
-            self._save_state()
+            self._ref_timestamp = time.time()
 
-            return
-
-        self._req_count = 1
-        self._ref_timestamp = time.time()
         self._save_state()
 
 
