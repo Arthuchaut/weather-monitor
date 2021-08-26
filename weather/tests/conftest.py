@@ -1,6 +1,7 @@
 from typing import Any
-from django.utils import timezone
 import pytest
+from django.utils import timezone
+from weather.libs.api.open_weather_map import OpenWeatherMap
 
 
 @pytest.fixture
@@ -63,3 +64,13 @@ def measure_fake_data() -> dict[str, Any]:
         'sea_level': 10,
         'ground_level': 12,
     }
+
+
+@pytest.fixture
+def fake_token() -> str:
+    return 'abcdefghijklmnopqrstuvw'
+
+
+@pytest.fixture
+def fake_owm(fake_token: str) -> OpenWeatherMap:
+    return OpenWeatherMap(token=fake_token, calls_per_min=4)
