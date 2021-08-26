@@ -1,5 +1,6 @@
-import pathlib
 from typing import Any
+import pathlib
+import json
 import pytest
 from _pytest.monkeypatch import MonkeyPatch
 from django.utils import timezone
@@ -68,6 +69,20 @@ def measure_fake_data() -> dict[str, Any]:
         'sea_level': 10,
         'ground_level': 12,
     }
+
+
+@pytest.fixture
+def current_weather_fake_data() -> list[dict[str, Any]]:
+    data: list[dict[str, Any]] = json.loads(
+        (
+            settings.BASE_DIR
+            / 'weather'
+            / 'tests'
+            / '__samples__'
+            / 'weather_fake_data.json'
+        ).read_text()
+    )
+    return data
 
 
 @pytest.fixture

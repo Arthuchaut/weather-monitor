@@ -2,6 +2,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.core.validators import MinValueValidator, MaxValueValidator
 from weather.models import Location, Weather
+from weather.managers.measure_manager import MeasureManager
 
 
 class Measure(models.Model):
@@ -19,7 +20,7 @@ class Measure(models.Model):
             MaxValueValidator(360),
         ]
     )
-    wind_gust: models.FloatField = models.FloatField()
+    wind_gust: models.FloatField = models.FloatField(null=True)
     visibility: models.IntegerField = models.IntegerField()
     temp: models.FloatField = models.FloatField()
     feels_like: models.FloatField = models.FloatField()
@@ -27,14 +28,16 @@ class Measure(models.Model):
     temp_max: models.FloatField = models.FloatField()
     pressure: models.IntegerField = models.IntegerField()
     humidity: models.IntegerField = models.IntegerField()
-    sea_level: models.IntegerField = models.IntegerField()
-    ground_level: models.IntegerField = models.IntegerField()
+    sea_level: models.IntegerField = models.IntegerField(null=True)
+    ground_level: models.IntegerField = models.IntegerField(null=True)
     weather: models.ForeignKey = models.ForeignKey(
         Weather, on_delete=models.CASCADE
     )
     location: models.ForeignKey = models.ForeignKey(
         Location, on_delete=models.CASCADE
     )
+
+    objects: MeasureManager = MeasureManager()
 
     def __str__(self) -> str:
         return str(self.measure_id)
