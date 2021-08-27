@@ -1,5 +1,7 @@
 # Own private files
 .flowstate
+Dockerfile
+docker-compose.yml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

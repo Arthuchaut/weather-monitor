@@ -1,0 +1,11 @@
+.env
+.env-example
+docker-compose.yml
+db.sqlite3
+.coverage
+.flowstate
+.pytest_cache/
+deployment/
+.git/
+.github/
+core/settings_dev.py

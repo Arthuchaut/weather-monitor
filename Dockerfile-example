@@ -1,0 +1,28 @@
+FROM python:3.9.6
+
+COPY . /opt/app
+
+WORKDIR /opt/app
+
+ENV DJANGO_SETTINGS_MODULE=core.settings_prod
+ENV SECRET_KEY=<TO_FILL>
+
+ENV OWM_APPID=<TO_FILL>
+ENV OWM_CALLS_PER_MIN=<TO_FILL>
+ENV OWM_NODE_SIZE=5
+ENV OWM_STATE_FILE=.flowstate
+
+ENV POSTGRES_HOST=<TO_FILL>
+ENV POSTGRES_PORT=5432
+ENV POSTGRES_USER=<TO_FILL>
+ENV POSTGRES_PASS=<TO_FILL>
+
+RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python - && \
+    export PATH=$HOME/.poetry/bin:$PATH && \
+    echo "export PATH=$HOME/.poetry/bin:$PATH" >> $HOME/.bashrc && \
+    cd /opt/app && \
+    poetry install --no-dev && \
+    poetry run python manage.py makemigrations && \
+    chmod +x entrypoint.sh
+
+ENTRYPOINT [ "/opt/app/entrypoint.sh" ]

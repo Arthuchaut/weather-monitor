@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  weather_postgres:
+    container_name: weather_postgres
+    hostname: weather_postgres
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    networks: 
+      weather_net:
+    environment: 
+      - POSTGRES_USER=<TO_FILL>
+      - POSTGRES_PASSWORD=<TO_FILL>
+      - POSTGRES_DB=weather_monitor
+    volumes: 
+      - weather_postgres_data:/var/lib/postgresql/data
+
+  weather_monitor:
+    depends_on:
+      - weather_postgres
+    container_name: weather_monitor
+    hostname: weather_monitor
+    build: .
+    restart: always
+    networks: 
+      weather_net:
+  
+  
+
+volumes:
+  weather_postgres_data:
+
+networks: 
+  weather_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.10.0.0/28
