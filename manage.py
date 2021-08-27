@@ -7,14 +7,6 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    base_dir: pathlib.Path = pathlib.Path(__file__).resolve().parent
-
-    try:
-        import dotenv
-
-        dotenv.load_dotenv(base_dir / '.env')
-    except ImportError:
-        pass
 
     try:
         from django.core.management import execute_from_command_line
