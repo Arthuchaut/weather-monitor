@@ -7,6 +7,20 @@ from weather.libs.api.request_flow_controller import RequestFlowController
 
 
 class OpenWeatherMap:
+    '''The Open Weather Map API class manager.
+
+    Attributes:
+        _token (str): The App ID.
+        units (str): The unit for the temperature
+            (metric, imperial or standard).
+        flow_ctrl (RequestFlowController): The flow controller
+            for limiting the request rate according to the API
+            permissions.
+        _url (str): The API URK.
+        _BASE_URL (str): The API base URL.
+        _VERSION (str): The API version.
+    '''
+
     _BASE_URL: str = 'https://api.openweathermap.org/data/'
     _VERSION: str = '2.5'
 

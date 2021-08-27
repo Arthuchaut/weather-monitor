@@ -2,6 +2,8 @@ from django.db import models
 
 
 class MeasureManager(models.Manager):
+    '''The measure management class.'''
+
     def latest_measure_num(self) -> int:
         '''Returns the latest measure_num.
 

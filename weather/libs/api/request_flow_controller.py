@@ -3,10 +3,26 @@ import time
 
 
 class RequestFlowController:
+    '''The request flow controller.
+    Allow to limiting the request rate according to the
+    API requests limitations.
+
+    Attributes:
+        _flow_capacity (int): The maximum request allowed
+            in the given time range.
+        _time_range (int): The time range (in seconds).
+            Default to 60.
+        _ref_timestamp (float): The reference time.
+        _req_count (int): The current requests count in the
+            given time range.
+        _state_file (pathlib.Path): The file that used to
+            store the flow state.
+    '''
+
     def __init__(
         self,
         flow_capacity: int,
-        time_range: int,
+        time_range: int = 60,
         state_file: pathlib.Path = None,
     ) -> None:
         '''The constructor.
@@ -14,7 +30,7 @@ class RequestFlowController:
         Args:
             flow_capacity (int): The maximum request allowed
                 in the given time range.
-            time_range (int): The time range (in seconds).
+            time_range (int): The time range (in seconds). Default to 60.
             state_file (pathlib.Path): The file that used to
                 store the flow state.
         '''

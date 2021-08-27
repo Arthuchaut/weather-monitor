@@ -8,6 +8,10 @@ from weather.models import Measure, Location, City, Country, Weather, Ocean
 
 
 class Command(BaseCommand):
+    '''The data collector command class.
+    Allow to retrieve the current weather in the entier world.
+    '''
+
     help: str = (
         'Retrieve the current weather '
         'in the entier world and save these data in DB.'
