@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import os
 import logging.config
 from datetime import datetime
 from pathlib import Path
@@ -24,23 +25,20 @@ try:
 except ImportError:
     pass
 
-from core.config import Config
+from core.config import AppConfig
 
-APP_CONFIG: Config = Config()
+APP_CONFIG: AppConfig = AppConfig()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = (
-    'django-insecure-y&w6ve#*kvy3^x=st@5mf%!ayg-32*y21&2e3whg431cftvy1j'
-)
+SECRET_KEY = APP_CONFIG.DJANGO.SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = APP_CONFIG.DJANGO.DEBUG
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = APP_CONFIG.DJANGO.ALLOWED_HOSTS
 
 # Application definition
 
@@ -88,12 +86,26 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+DB_SETTINGS = {
+    'dev': {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    },
+    'prod': {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'weather_monitor',
+            'HOST': APP_CONFIG.POSTGRES_HOST,
+            'PORT': APP_CONFIG.POSTGRES_PORT,
+            'USER': APP_CONFIG.POSTGRES_USER,
+            'PASSWORD': APP_CONFIG.POSTGRES_PASS,
+        }
+    },
 }
+
+DATABASES = DB_SETTINGS[APP_CONFIG.DJANGO.DB_SETTINGS]
 
 
 # Password validation
@@ -169,6 +181,7 @@ LOGGING = {
             'filename': BASE_DIR
             / 'logs'
             / f'{datetime.now():%Y_%m_%d}_events.log',
+            'filters': ['require_debug_false'],
             'formatter': 'verbose',
         },
     },
