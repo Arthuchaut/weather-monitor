@@ -26,6 +26,8 @@ services:
     restart: always
     env_file:
       - .env
+    volumes:
+      - weather_monitor_log_data:/opt/app/logs
     networks: 
       weather_net:
   
@@ -33,6 +35,7 @@ services:
 
 volumes:
   weather_postgres_data:
+  weather_monitor_log_data:
 
 networks: 
   weather_net:
