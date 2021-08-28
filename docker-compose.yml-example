@@ -24,6 +24,8 @@ services:
     hostname: weather_monitor
     build: .
     restart: always
+    env_file:
+      - .env
     networks: 
       weather_net:
   
