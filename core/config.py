@@ -5,7 +5,7 @@ from dataclasses import dataclass, field
 
 @dataclass
 class DjangoConfig:
-    DEBUG: str = os.environ['DEBUG']
+    DEBUG: bool = bool(1 if os.environ['DEBUG'] == 'True' else 0)
     SECRET_KEY: str = os.environ['SECRET_KEY']
     ALLOWED_HOSTS: list[str] = field(
         default_factory=os.environ['SECRET_KEY'].split
