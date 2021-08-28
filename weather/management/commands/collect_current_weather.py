@@ -1,4 +1,5 @@
 from typing import Any
+import logging
 from datetime import datetime
 from django.utils import timezone
 from django.conf import settings
@@ -16,6 +17,7 @@ class Command(BaseCommand):
         'Retrieve the current weather '
         'in the entier world and save these data in DB.'
     )
+    logger: logging.Logger = logging.getLogger(__name__)
 
     def handle(self, *args: Any, **kwargs: Any) -> None:
         '''Execute the command.
@@ -34,6 +36,8 @@ class Command(BaseCommand):
             calls_per_min=settings.APP_CONFIG.OWM_CALLS_PER_MIN,
         )
         i: int = 0
+
+        self.logger.info('Begining data retrieving.')
 
         for lat, lon in owm.sub_map(settings.APP_CONFIG.OWM_NODE_SIZE):
             data: dict[str, Any] = owm.get_weather_by_coord(lat=lat, lon=lon)
@@ -80,14 +84,9 @@ class Command(BaseCommand):
                 weather=weather,
                 location=location,
             )
-
-            if not i % 100:
-                self.stdout.write(
-                    f'{datetime.now():%Y-%m-%d %H:%M:%S} > Collected {i} weather data.'
-                )
-
             i += 1
 
-        self.stdout.write(
-            f'{datetime.now():%Y-%m-%d %H:%M:%S} > Collected {i} weather data.'
-        )
+            if not i % 10:
+                self.logger.info(f'Collected {i} weather data.')
+
+        self.logger.info(f'Retrieving done. {i} items collected.')

@@ -2,6 +2,8 @@
 .flowstate
 Dockerfile
 docker-compose.yml
+logs/*
+!.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
